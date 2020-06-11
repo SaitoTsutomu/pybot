@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body %}
+<form action="/" method="POST">
+    <p>
+        コマンド:
+        <input type="text" name="command" size="30" value="{{ command }}" placeholder="ヘルプ" required>
+        <input type="submit" value="送信">
+    </p>
+</form>
+ボット: {{ message | safe }}
+{% endblock %}

@@ -1,0 +1,19 @@
+[greeting]
+おはよう = "オハヨウ"
+こんにちは = "コンニチハ"
+ありがとう = "ドウイタシマシテ"
+さようなら = "サヨウナラ"
+
+[wareki]
+令和 = 2019
+平成 = 1989
+昭和 = 1926
+大正 = 1912
+明治 = 1868
+
+[weather]
+url1 = "http://weather.livedoor.com/forecast/webservice/json/v1"
+url2 = "http://weather.livedoor.com/forecast/rss/primary_area.xml"
+[weather.code]
+東京 = 130010
+大阪 = 270000
