@@ -1,1 +1,1 @@
-web: gunicorn optrpg:app --log-file -
+web: gunicorn pybot:app --log-file -
