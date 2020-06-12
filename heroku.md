@@ -9,7 +9,7 @@ https://signup.heroku.com/
 git clone https://github.com/SaitoTsutomu/pybot.git
 cd pybot
 heroku login  # ブラウザでログインすること
-heroku create --buildpack heroku/python
+heroku create (アプリ名) --buildpack heroku/python
 git push heroku master
 heroku logs
 heroku open
