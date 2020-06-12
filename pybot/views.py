@@ -168,9 +168,7 @@ def wikipedia_command(*, inst, args, **_):
     try:
         wikipedia.set_lang("ja")
         page = wikipedia.page(args)
-        title = page.title
-        summary = page.summary
-        return f"タイトル: {title}<br>{summary}"
+        return f"タイトル: {page.title}<br>{page.summary}"
     except wikipedia.exceptions.WikipediaException:
         return f'"{wikipedia_command.__doc__}" ダヨ'
     except wikipedia.exceptions.PageError:
