@@ -39,7 +39,6 @@ def bot(command):
         return f"使い方<br><ul>{''.join(lst)}</ul>"
     inst, args = (command + " ").split(" ", maxsplit=1)
     args = args.rstrip()
-    print()
     for func in command_funcs:
         if message := func(command=command, inst=inst, args=args):
             return message
