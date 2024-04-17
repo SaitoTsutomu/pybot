@@ -9,7 +9,7 @@ pybot = "pybot:main"
 
 [tool.poetry.dependencies]
 flask = "^3.0"
-gunicorn = "^21.2"
+gunicorn = "^22.0"
 python = "^3.11"
 requests = "^2.31"
 toml = "^0.10"
